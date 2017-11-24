@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="https://www.ibm.com/favicon.ico" />
+	<link rel="canonical" href="https://www.ibm.com/us-en/marketplace/collections/deploy-faster/" />
+	<meta name="dcterms.date" content="2017-04-18" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="security" content="public" />
+	<title>Preview - Download</title>
+	<script src="https://1.www.s81c.com/common/v18/js/www.js"></script>
+
+	<link href="https://1.www.s81c.com/common/v18/css/grid-fluid.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.js"></script>
+	<script type="text/javascript" src="../src/preview.js"></script>
+	<style>
+	.styleButton {
+		font-size: .825em;
+		text-decoration: none;
+		padding: 10px 20px;
+		background-color: #4178be;
+		color: white;
+		font-family: Arial;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	.styleButton:hover, .styleButton.hover {
+		background-color: #325c80;
+	}
+	</style>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery(".download").click(function(e){
+			e.preventDefault;
+			var content = jQuery('.allcontent').html();
+			content = content.replace(/•/g, "&bull;");
+			content = content.replace(/ã/g, "&atilde;");
+			content = content.replace(/õ/g, "&otilde;");
+			content = content.replace(/ú/g, "&uacute;");
+			content = content.replace(/é/g, "&eacute;");
+			content = content.replace(/ç/g, "&ccedil;");
+			content = content.replace(/©/g, "&copy;");
+			var b0dy = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><body>' + content + '</body></html>';
+			jQuery(".download").attr("href", jQuery(".download").attr("href") + b0dy);
+			console.log(b0dy);
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<div>
+		<div style="padding: 20px 0;  text-align: center">
+			<div class='fileUpload'>
+				<a class="styleButton upload download" href="data:text/plain," download="email.html">Download</a>
+			</p>
+		</div>
+	</div>
+	<div class="allcontent">
+		<center>
+			<table border="0" width="700" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<table width="700" border="0" cellspacing="0" cellpadding="0">
+							<tbody>
+
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+		</center>
+	</div>
+</body>
+</html>

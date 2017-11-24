@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MSC LA NEWS</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://1.www.s81c.com/common/v18/css/www.css" rel="stylesheet">
+    <link href="https://1.www.s81c.com/common/v18/css/grid-fluid.css" rel="stylesheet">
+    <script src="https://1.www.s81c.com/common/stats/ida_stats.js"></script>
+    <script src="https://1.www.s81c.com/common/v18/js/www.js"></script>
+    <link href="https://1.www.s81c.com/common/v18/css/forms.css" rel="stylesheet">
+    <script type="text/javascript" src="src/form2js.js"></script>
+    <script type="text/javascript" src="src/jquery.toObject.js"></script>
+    <script type="text/javascript" src="src/json2.js"></script>
+    <script type="text/javascript" src="src/palette.js"></script>
+
+</head>
+
+<body id="ibm-com" class="ibm-type">
+    <div id="ibm-top" class="ibm-landing-page">
+
+        <!-- MASTHEAD_BEGIN -->
+        <header>
+            <div id="ibm-leadpace-head" class="ibm-leadspace-fluid leadspace">
+                <div id="ibm-leadspace-body" class="ibm-downsize ibm-nospacing">
+                    <div class="ibm-fluid ibm-fullwidth">
+                        <div class="ibm-col-12-10 ibm-center-block ibm-padding-bottom-3 ibm-padding-top-3">
+                            <h1 id="ibm-pagetitle-h1" class="ibm-h1 ibm-bold ibm-textcolor-white-core">MSC LA NEWS<br>Builder Tool</h1>
+                            <h4 class="ibm-h4 ibm-textcolor-white-core">Start designing you custom newsletter right now!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- MASTHEAD_END -->
+
+        <div id="ibm-content-wrapper">
+
+            <main role="main" aria-labelledby="ibm-pagetitle-h1">
+                <div id="ibm-pcon">
+
+                    <!-- Begin Header Data -->
+                    <div id="Render">
+                        <div class="ibm-fluid ibm-fullwidth ibm-background-cool-white-40 ibm-padding-top-2 ibm-padding-bottom-1">
+                            <div class="ibm-col-12-10 ibm-center-block">
+                                <div class="ibm-col-12-6 ibm-col-medium-12-12 ">
+                                    <div class="ibm-col-12-12">
+                                        <form id="dataErrLink" class="ibm-row-form" method="post">
+                                            <p class="ibm-h2">Header fields</p>
+                                            <p>
+                                                <label class="ibm-h4 ibm-column-field-label ibm-small" for="link_error">In case this e-mail doesn't display link: </label>
+                                                <span>
+                                                    <input type="text" value="" id="link_error" size="30" name="error.link">
+                                                </span>
+                                                <input hidden type="text" value='true' name="headerGIF">
+                                            </p>
+                                        </form>
+                                        <form id="dataYear" class="ibm-row-form" method="post">
+                                            <p>
+                                                <label class="ibm-column-field-label ibm-h4 ibm-small">Select the year: </label>
+                                                <select name="data.year">
+                                                    <option value="" selected>Select one</option>
+                                                    <option value="2">2 (2017)</option>
+                                                    <option value="3">3 (2018)</option>
+                                                    <option value="4">4 (2019)</option>
+                                                    <option value="5">5 (2020)</option>
+                                                    <option value="6">6 (2021)</option>
+                                                    <option value="7">7 (2022)</option>
+                                                </select>
+                                            </p>
+                                        </form>
+                                        <form id="dataIssue" class="ibm-row-form" method="post">
+                                            <p>
+                                                <label class="ibm-column-field-label ibm-h4 ibm-small">Select the issue: </label>
+                                                <select name="data.issue" data-searchenabled="false">
+                                                    <option value="" selected>Select one</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </p>
+                                        </form>
+                                        <form id="dataMonth" class="ibm-row-form" method="post">
+                                            <p>
+                                                <label class="ibm-column-field-label ibm-h4 ibm-small">Select the month: </label>
+                                                <select name="data.month" data-searchenabled="false">
+                                                    <option value="" selected>Select one</option>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Begin Highlight -->
+                                <div class="ibm-col-12-6 ibm-col-medium-12-12">
+                                    <form id="highlight" class="ibm-row-form" method="post">
+                                        <p>
+                                            <label class="ibm-h2">Highlight</label>
+                                        </p>
+                                        <div class="ibm-fluid">
+                                            <div class="ibm-col-12-12">
+                                                <section class="ibm-clear uploadimgcontrol">
+                                                    <div class="fileUpload ibm-btn-blue-50 ibm-btn-pri">
+                                                        <span class="placeimgInp">Upload image</span>
+                                                        <input type="file" class="upload" id="thefile" onchange="alertFilename()" />
+                                                        <input type="text" hidden size="500" id="img_highlight" name="highlight.img" class="imagevalue">
+                                                    </div>
+                                                        <div>Path file: </div>
+                                                        <div class="pathFile ibm-padding-bottom-1"></div>
+
+                                                </section>
+                                                <p>
+                                                    <label for="h1_highlight">Title:</label>
+                                                    <span>
+                                                        <input type="text" value="" size="46" id="h1_highlight" name="highlight.h1">
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-fluid">
+                                            <div class="ibm-col-12-12">
+                                                <p>
+                                                    <label for="p_highlight">Content:</label>
+                                                    <span>
+                                                        <textarea cols="44" rows="5" id="p_highlight" name="highlight.p"></textarea>
+                                                        <div class="linkcontrol">
+                                                          <p>
+                                                              <label class="ibm-column-field-label">Select which link do you want:</label>
+                                                              <span>
+                                                                  <select data-searchenabled="false" class="linktype">
+                                                                      <option value="" selected>Select one</option>
+                                                                      <option value="ReadMore">Read more</option>
+                                                                      <option value="toWatch">Click here to watch</option>
+                                                                      <option value="toAccess">Click here to access</option>
+                                                                  </select>
+                                                              </span>
+                                                          </p>
+                                                          <input class="Link" size="46" placeholder="http://..." type="text" name="highlight.link" value="">
+                                                          <input class="ContentLink" type="text" name="highlight.contentLink" hidden value="">
+                                                        </div>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Highlight -->
+                        <!-- Begin Cards Content -->
+
+                        <div id="allCards">
+                            <div id="0" class="ibm-fluid ibm-padding-top-2 ibm-fullwidth">
+                                <div class="ibm-col-12-10 ibm-center-block">
+                                    <div class="ibm-col-12-6 controller ibm-col-medium-12-12">
+                                        <form class="ibm-row-form reset" method="post">
+                                            <p>
+                                                <label class="ibm-h2">Card 1</label>
+                                            </p>
+                                            <div class="ibm-fluid">
+                                                <div class="ibm-col-12-12">
+                                                    <section class="ibm-clear uploadimgcontrol">
+                                                        <div class="fileUpload  ibm-btn-blue-50 ibm-btn-pri">
+                                                            <span class="placeimgInp">Upload image</span>
+                                                            <input type="file" class="upload" />
+                                                            <input type="text" hidden size="500" id="img_card_0" name="content[0].card[0].imgCard" class="imagevalue">
+                                                        </div>
+                                                            <div>Path file: </div>
+                                                            <div class="pathFile ibm-padding-bottom-1"></div>
+                                                    </section>
+                                                    <div class="cardcontrol">
+                                                        <p>
+                                                            <label class="ibm-column-field-label">Select which card do you want:</label>
+                                                            <span>
+                                                                <select data-searchenabled="false" class="cardtype">
+                                                                    <option value="" selected>Select one</option>
+                                                                    <option value="Design">Design</option>
+                                                                    <option value="Video">Video</option>
+                                                                    <option value="Content">Content</option>
+                                                                    <option value="Social">Social</option>
+                                                                    <option value="Applications">Applications</option>
+                                                                    <option value="Optimization">Optimization</option>
+                                                                    <option value="Web">Web</option>
+                                                                </select>
+                                                            </span>
+
+                                                        </p>
+
+                                                        <input class="cardBG" type="text" name="content[0].card[0].bg" hidden value="">
+                                                        <input class="cardALT" type="text" name="content[0].card[0].altHeader" hidden value="">
+                                                        <input class="cardIMG" type="text" name="content[0].card[0].imgHeader" hidden value="">
+                                                    </div>
+                                                    <p>
+                                                        <label for="h1_card_0">Title:</label>
+                                                        <span>
+                                                            <input type="text" value="" size="46" id="h1_card_0" name="content[0].card[0].h1">
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="ibm-fluid">
+                                                <div class="ibm-col-12-12">
+                                                    <p>
+                                                        <label for="p_card_0">Content:</label>
+                                                        <span>
+                                                            <textarea cols="44" rows="5" id="p_card_0" name="content[0].card[0].p"></textarea>
+                                                            <div class="linkcontrol">
+                                                              <p>
+                                                                  <label class="ibm-column-field-label">Select which link do you want:</label>
+                                                                  <span>
+                                                                      <select data-searchenabled="false" class="linktype">
+                                                                          <option value="" selected>Select one</option>
+                                                                          <option value="ReadMore">Read more</option>
+                                                                          <option value="toWatch">Click here to watch</option>
+                                                                          <option value="toAccess">Click here to access</option>
+                                                                      </select>
+                                                                  </span>
+                                                              </p>
+                                                              <input class="Link" size="46" placeholder="http://..." type="text" name="content[0].card[0].link" value="">
+                                                              <input class="ContentLink" type="text" name="content[0].card[0].contentLink" hidden value="">
+                                                            </div>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                    <div class="ibm-col-12-6 controller ibm-col-medium-12-12">
+                                        <form class="ibm-row-form reset" method="post">
+                                            <p>
+                                                <label class="ibm-h2">Card 2</label>
+                                            </p>
+                                            <div class="ibm-fluid">
+                                                <div class="ibm-col-12-12">
+                                                    <section class="ibm-clear uploadimgcontrol">
+                                                        <div class="fileUpload  ibm-btn-blue-50 ibm-btn-pri">
+                                                            <span class="placeimgInp">Upload image</span>
+                                                            <input type="file" class="upload" />
+                                                            <input type="text" hidden size="500" id="img_card_1" name="content[0].card[1].imgCard" class="imagevalue">
+                                                        </div>
+                                                            <div>Path file: </div>
+                                                            <div class="pathFile ibm-padding-bottom-1"></div>
+                                                    </section>
+                                                    <div class="cardcontrol">
+                                                        <p>
+                                                            <label class="ibm-column-field-label">Select which card do you want:</label>
+                                                            <span>
+                                                                <select data-searchenabled="false" class="cardtype">
+                                                                    <option value="" selected>Select one</option>
+                                                                    <option value="Design">Design</option>
+                                                                    <option value="Video">Video</option>
+                                                                    <option value="Content">Content</option>
+                                                                    <option value="Social">Social</option>
+                                                                    <option value="Applications">Applications</option>
+                                                                    <option value="Optimization">Optimization</option>
+                                                                    <option value="Web">Web</option>
+                                                                </select>
+                                                            </span>
+
+                                                        </p>
+
+                                                        <input class="cardBG" type="text" name="content[0].card[1].bg" hidden value="">
+                                                        <input class="cardALT" type="text" name="content[0].card[1].altHeader" hidden value="">
+                                                        <input class="cardIMG" type="text" name="content[0].card[1].imgHeader" hidden value="">
+                                                    </div>
+                                                    <p>
+                                                        <label for="h1_card_1">Title:</label>
+                                                        <span>
+                                                            <input type="text" value="" size="46" id="h1_card_1" name="content[0].card[1].h1">
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="ibm-fluid">
+                                                <div class="ibm-col-12-12">
+                                                    <p>
+                                                        <label for="p_card_1">Content:</label>
+                                                        <span>
+                                                            <textarea cols="44" rows="5" id="p_card_1" name="content[0].card[1].p"></textarea>
+                                                            <div class="linkcontrol">
+                                                              <p>
+                                                                  <label class="ibm-column-field-label">Select which link do you want:</label>
+                                                                  <span>
+                                                                      <select data-searchenabled="false" class="linktype">
+                                                                          <option value="" selected>Select one</option>
+                                                                          <option value="ReadMore">Read more</option>
+                                                                          <option value="toWatch">Click here to watch</option>
+                                                                          <option value="toAccess">Click here to access</option>
+                                                                      </select>
+                                                                  </span>
+                                                              </p>
+                                                              <input class="Link" placeholder="http://..." size="46" type="text" name="content[0].card[1].link" value="">
+                                                              <input class="ContentLink" type="text" name="content[0].card[1].contentLink" hidden value="">
+                                                            </div>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Cards Content -->
+
+                        <!-- Begin Button Add Card -->
+                        <div class="ibm-fluid ibm-fullwidth">
+                            <div class="ibm-col-12-10 ibm-center-block">
+                                <div class="ibm-col-12-3">
+                                    <p class="ibm-ind-link">
+                                        <a class="ibm-btn-blue-30 ibm-add-link ibm-btn-sec" href="" id="add_new_row_card">Add more cards</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- End Button Add Card -->
+                        <!-- Begin Last Content -->
+                        <div class="ibm-fluid ibm-fullwidth ibm-padding-bottom-1 ibm-padding-top-2 ibm-background-cool-white-40">
+                            <div class="ibm-col-12-10 ibm-center-block">
+                                <div class="ibm-col-12-6 ibm-col-medium-12-12">
+                                    <form id="lastContent" class="ibm-row-form reset" method="post">
+                                        <p>
+                                            <label class="ibm-h2">Last card</label>
+                                        </p>
+                                        <section class="ibm-clear uploadimgcontrol">
+                                            <div class="fileUpload  ibm-btn-blue-50 ibm-btn-pri">
+                                                <span class="placeimgInp">Upload image</span>
+                                                <input type="file" class="upload" />
+                                                <input type="text" hidden size="500" id="img_lastContent" name="lastContent.imgCard" class="imagevalue">
+                                            </div>
+                                                <div>Path file: </div>
+                                                <div class="pathFile ibm-padding-bottom-1"></div>
+                                        </section>
+                                        <div class="ibm-fluid">
+                                            <div class="ibm-col-12-12">
+                                                <div class="cardcontrol">
+                                                    <p>
+                                                        <label class="ibm-column-field-label">Select which card do you want:</label>
+                                                        <span>
+                                                            <select data-searchenabled="false" class="lastcardtype">
+                                                                <option value="" selected>Select one</option>
+                                                                <option value="Design">Design</option>
+                                                                <option value="Video">Video</option>
+                                                                <option value="Content">Content</option>
+                                                                <option value="Social">Social</option>
+                                                                <option value="Applications">Applications</option>
+                                                                <option value="Optimization">Optimization</option>
+                                                                <option value="Web">Web</option>
+                                                            </select>
+                                                        </span>
+
+                                                    </p>
+                                                    <input class="lastCardBG" type="text" name="lastContent.bgHeader" hidden value="">
+                                                    <input class="lastCardBGContent" type="text" name="lastContent.bgContent" hidden value="">
+                                                    <input class="lastCardALT" type="text" name="lastContent.altHeader" hidden value="">
+                                                    <input class="lastCardIMG" type="text" name="lastContent.imgHeader" hidden value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-fluid">
+                                            <div class="ibm-col-12-12">
+                                                <p>
+                                                    <label for="h1_lastContent">Title:</label>
+                                                    <span>
+                                                        <input type="text" value="" size="46" id="h1_lastContent" name="lastContent.h1">
+                                                    </span>
+                                                </p>
+                                                <p>
+                                                    <label for="p_lastContent">Content:</label>
+                                                    <span>
+                                                        <textarea cols="44" rows="5" id="p_lastContent" name="lastContent.p"></textarea>
+                                                        <div class="linkcontrol">
+                                                          <p>
+                                                              <label class="ibm-column-field-label">Select which link do you want:</label>
+                                                              <span>
+                                                                  <select data-searchenabled="false" class="linktype">
+                                                                      <option value="" selected>Select one</option>
+                                                                      <option value="ReadMore">Read more</option>
+                                                                      <option value="toWatch">Click here to watch</option>
+                                                                      <option value="toAccess">Click here to access</option>
+                                                                  </select>
+                                                              </span>
+                                                          </p>
+                                                          <input placeholder="http://..." class="Link" size="46" type="text" name="lastContent.link" value="">
+                                                          <input class="ContentLink" type="text" name="lastContent.contentLink" hidden value="">
+                                                        </div>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <input type="text" value='true' name="tfoot" hidden>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- End Last Content -->
+
+                        <div>
+                            <p class="ibm-btn-row ibm-padding-bottom-0">
+                                <input id="selector" name="selector" value="#Render" type="submit" class="ibm-btn-pri ibm-btn-blue-50" style="display:none;" />
+                            </p>
+                        </div>
+                        <div id="navheader" class="ibm-fluid ibm-fullwidth ibm-background-cool-gray-60 ibm-alternate-background">
+                            <div class="ibm-col-12-10 ibm-center-block">
+                                <div class="ibm-col-12-4">
+                                    <div class="ibm-padding-top-1 ibm-padding-bottom-2">
+                                        <h2 class="ibm-h3 ibm-padding-bottom-1 ibm-padding-top-1">Email Options</h2>
+                                        <p id="content" class="ibm-ind-link  ibm-padding-bottom-1 ibm-padding-top-1">
+                                            <a class="ibm-view-link ibm-margin-bottom-0 ibm-btn-small ibm-btn-sec ibm-btn-white" href="javascript:void(0)" id="previewtest">Preview</a>
+                                            <a id="agoravai" class="ibm-btn-sec ibm-copy-link ibm-margin-bottom-0 ibm-btn-small ibm-btn-white">Generate</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </main>
+
+        </div>
+
+        <!-- FOOTER_BEGIN -->
+        <!-- FOOTER_END -->
+
+    </div>
+</body>
+
+</html>
